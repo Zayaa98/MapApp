@@ -1,0 +1,45 @@
+/* App container styles */
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header styles */
+  .App-header {
+    background-color: #0078d4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .App-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .App-header p {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  .App-main {
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  /* Footer styles */
+  .App-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Map container styles */
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
